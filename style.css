@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #cfffcf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  font-family: "Geist", sans-serif;
+}
+
+#content {
+  width: 60%;
+  display: flex;
+}
+
+.small-container {
+  height: 100%;
+  width: 20%;
+}
+
+#pfp {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+#searchBar {
+  width: 60%;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}

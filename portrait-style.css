@@ -1,0 +1,22 @@
+body {
+  height: fit-content;
+}
+
+#content {
+  margin-top: 10%;
+  width: 90%;
+  flex-direction: column;
+}
+
+.small-container {
+  width: 100%;
+}
+
+#searchBar {
+  margin-top: 3rem;
+  width: 80%;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}

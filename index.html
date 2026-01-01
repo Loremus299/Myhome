@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="portrait-style.css"
+      media="screen and (max-aspect-ratio: 4/3)"
+    />
+    <title>The Internet &amp; You</title>
+  </head>
+
+  <body>
+    <input type="text" id="searchBar" placeholder="search from here" />
+    <script>
+      const searchInput = document.getElementById("searchBar");
+      searchInput.addEventListener("keydown", (event) => {
+        if (event.key == "Enter") {
+          const searchTerm = searchInput.value ?? "cats";
+          window.location.href = `https://duckduckgo.com/?q=${searchTerm}&ia=web`;
+        }
+      });
+    </script>
+    <div id="content">
+      <div class="small-container">
+        <img src="pfp_square_transparent.png" alt="PFP SHOULD BE HERE ANYTIME NOW! GET READY!!" id="pfp"/>
+        <p style="font-size: 2em; line-height: 0; text-decoration: solid">Loremus</p>
+        <p style="line-height: 0">he/him. 20.</p>
+      </div>
+
+      <div class="small-container">
+        Socials
+        <ul>
+          <li><a class="link" href="https://discord.com/channels/@me">Discord</a></li>
+          <li><a class="link" href="https://stoat.chat/app">Stoat</a></li>
+          <li><a class="link" href="https://cara.app/loremus">Cara</a></li>
+          <li><a class="link" href="https://in.pinterest.com/loremusley/">Pinterest</a></li>
+          <li><a class="link" href="https://www.behance.net/loremus#">Behance</a></li>
+          <li><a class="link" href="https://git.gay/Loremus">Git.gay</a></li>
+          <li><a class="link" href="https://github.com/Loremus299">Github</a></li>
+          <li><a class="link" href="https://codepen.io/loremus">Codepen</a></li>
+          <li><a class="link" href="https://web.whatsapp.com/">Whatsapp</a></li>
+        </ul>
+      </div>
+      <div class="small-container">
+        Mastodon
+        <ul>
+          <li><a class="link" href="https://tech.lgbt/@loremus">Tech.lgbt</a></li>
+          <li><a class="link" href="https://mastodon.social/@loremus">Mastodon.social</a></li>
+          <li><a class="link" href="https://woof.tech/@loremus">Woof.tech</a></li>
+        </ul>
+      </div>
+      <div class="small-container">
+        Bookmarks
+        <ul>
+          <li><a class="link" href="https://mydo.loremus.gay/mydo">Mydo</a></li>
+          <li><a class="link" href="https://mail.proton.me/">Proton Mail</a></li>
+          <li><a class="link" href="https://pass.proton.me/">Proton Pass</a></li>
+          <li><a class="link" href="https://vercel.com/loremstatic">Vercel</a></li>
+          <li><a class="link" href="https://www.sanity.io">Sanity CMS</a></li>
+          <li><a class="link" href="https://www.figma.com">Figma</a></li>
+          <li><a class="link" href="https://jitter.video">Jitter</a></li>
+          <li><a class="link" href="https://mockup.zone/">Mockups</a></li>
+        </ul>
+      </div>
+      <div class="small-container">
+        Chill
+        <ul>
+          <li><a class="link" href="https://itch.io/games/platform-web">Itch io web games</a></li>
+          <li><a class="link" href="https://www.youtube.com">YouTube</a></li>
+          <li><a class="link" href="https://www.hotstar.com/in/home">Hotstar</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
